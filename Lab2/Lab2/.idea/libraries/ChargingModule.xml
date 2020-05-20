@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="ChargingModule">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../ChargingModule/out/artifacts/ChargingModule_jar/ChargingModule.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

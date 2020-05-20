@@ -1,5 +1,5 @@
 # Required software #
-* JDK 1.8 и выше
+* JDK 1.8 or higher
 
 # How to launch #
 * clone repository
