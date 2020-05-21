@@ -12,13 +12,13 @@ public class Charging {
 	private static final double CHARGE_FACTOR = 0.5;
 
 	public double countTrafficPrice(final List<ChargeItem> chargeItems, final String ipAddress) {
-        double total = 0;
+		double total = 0;
 
-        for (final ChargeItem chargeItem : chargeItems) {
-        	total += chargeItem.getInByte();
-        }
+		for (final ChargeItem chargeItem : chargeItems) {
+			total += chargeItem.getInByte();
+		}
 
-        return total  / FACTOR / FACTOR * CHARGE_FACTOR;
+		return total  / FACTOR / FACTOR * CHARGE_FACTOR;
 	}
 
 	public static class ChargeItem {

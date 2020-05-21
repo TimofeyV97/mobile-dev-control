@@ -32,8 +32,7 @@ public class Plot extends JFrame {
         setContentPane(new ChartPanel(chart));
     }
 
-    private XYDataset createDataset(final List<Charging.ChargeItem> chargeItems)
-    {
+    private XYDataset createDataset(final List<Charging.ChargeItem> chargeItems) {
         final TimeSeries s1 = new TimeSeries("Traffic/Time");
         final TimeSeriesCollection dataset = new TimeSeriesCollection();
         final int factor = Charging.FACTOR;
